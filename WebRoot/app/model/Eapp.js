@@ -1,0 +1,11 @@
+Ext.define('eapp.model.Eapp',
+{
+	extend:'Ext.data.Model',
+	config:
+	{
+		dields:
+		[
+			'mainmodules'
+		]
+	}
+});

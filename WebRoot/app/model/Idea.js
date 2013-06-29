@@ -1,0 +1,21 @@
+Ext.define('eapp.model.Idea',
+{
+	extend:'Ext.data.Model',
+	
+	config:
+	{
+		fields:
+		[
+			'ideaid',
+			'userId',
+			'userName',
+			'telephonenum',
+			'email',
+			'ideaContent',
+			'gridnum',
+			'isreply',
+			'commitDate',
+			'ispublic',
+		 ]
+	}
+});

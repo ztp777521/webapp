@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="eApp" basedir="../WebRoot" default="deploy">
+        <property name="dest.dir" value="../ant/deploy"/>
+
+		<!-- 删除旧文件 -->
+		<target name="delete">
+			<delete dir="${dest.dir}" quiet="true"/>
+		</target>
+		<!-- 复制目录结构 -->
+		<target name="copydir">
+            <copy todir="${dest.dir}">
+                    <fileset dir="." excludes="**/*.*"></fileset>
+            </copy>
+		</target>
+		<!-- 复制其它文件 -->
+		<target name="copyfile">
+            <copy todir="${dest.dir}">
+                    <fileset dir="." includes="**/*.html,**/*.jpg,**/*.png,**/*.gif,**/*.ico,**/*.json,**/*.xml,**/*.MF"></fileset>
+            </copy>
+		</target>
+		<!-- 压缩JS -->
+        <target name="webroot.minify">
+            <apply executable="java" dest="${dest.dir}">
+                <fileset dir="." includes="**/*.js"/>
+                <arg line="-jar"/>
+                <arg path="./yuicompressor-2.4.7.jar"/>
+                <arg line="--charset utf-8" />
+                <arg line="--type js" />
+                <srcfile/>
+                <arg line="-v"/>
+                <arg line="-o"/>
+                <targetfile/>
+                <mapper type="identity"/>
+            </apply>
+        </target>
+
+        <!-- 压缩CSS  -->
+        <target name="css.minify">
+            <apply executable="java" dest="${dest.dir}">
+                <fileset dir="." includes="**/*.css"/>
+                <arg line="-jar"/>
+                <arg path="./yuicompressor-2.4.7.jar"/>
+                <arg line="--charset utf-8" />
+                <arg line="--type css" />
+                <srcfile/>
+                <arg line="-v"/>
+                <arg line="-o"/>
+                <targetfile/>
+                <mapper type="identity"/>
+            </apply>
+        </target>
+		
+        <target name="deploy" depends="delete,copydir,copyfile,webroot.minify,css.minify"></target>
+</project>

@@ -1,0 +1,1 @@
+Ext.define("eapp.business.IntegratematerialService",{extend:"eapp.business.BaseService",findlist:function(d,b,a,c){this.callApi("integratematerial!getlist.action",{moduleTypeid:d,materialState:b,showTypeid:a},c)},});

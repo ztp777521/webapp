@@ -1,0 +1,316 @@
+{
+    "projectName": "Project Name",
+    "licenseText": "Copyright(c) 2012 Company Name",
+    "builds": [
+        {
+            "name": "All Classes",
+            "target": "all-classes.js",
+            "options": {
+                "debug": true
+            },
+            "files": [
+                {
+                    "clsName": "eapp.util.GlobalData",
+                    "name": "GlobalData.js",
+                    "path": "app/util/"
+                },
+                {
+                    "clsName": "eapp.view.Dialogs",
+                    "name": "Dialogs.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "eapp.component.LabelEx",
+                    "name": "LabelEx.js",
+                    "path": "app/component/"
+                },
+                {
+                    "clsName": "eapp.business.BaseService",
+                    "name": "BaseService.js",
+                    "path": "app/business/"
+                },
+                {
+                    "clsName": "eapp.business.IntegratematerialService",
+                    "name": "IntegratematerialService.js",
+                    "path": "app/business/"
+                },
+                {
+                    "clsName": "eapp.business.ResidentuserService",
+                    "name": "ResidentuserService.js",
+                    "path": "app/business/"
+                },
+                {
+                    "clsName": "eapp.business.UnemploymentregistrationService",
+                    "name": "UnemploymentregistrationService.js",
+                    "path": "app/business/"
+                },
+                {
+                    "clsName": "eapp.business.VolunteerService",
+                    "name": "VolunteerService.js",
+                    "path": "app/business/"
+                },
+                {
+                    "clsName": "eapp.business.GroupService",
+                    "name": "GroupService.js",
+                    "path": "app/business/"
+                },
+                {
+                    "clsName": "eapp.model.Integratematerial",
+                    "name": "Integratematerial.js",
+                    "path": "app/model/"
+                },
+                {
+                    "clsName": "eapp.model.Residentuser",
+                    "name": "Residentuser.js",
+                    "path": "app/model/"
+                },
+                {
+                    "clsName": "eapp.model.Idea",
+                    "name": "Idea.js",
+                    "path": "app/model/"
+                },
+                {
+                    "clsName": "eapp.model.Unemploymentregistration",
+                    "name": "Unemploymentregistration.js",
+                    "path": "app/model/"
+                },
+                {
+                    "clsName": "eapp.model.Unemploymentreply",
+                    "name": "Unemploymentreply.js",
+                    "path": "app/model/"
+                },
+                {
+                    "clsName": "eapp.view.Main",
+                    "name": "Main.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "eapp.view.Cell12",
+                    "name": "Cell12.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "eapp.view.Login",
+                    "name": "Login.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "eapp.view.IntegrateMaterial",
+                    "name": "IntegrateMaterial.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "eapp.view.Register",
+                    "name": "Register.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "eapp.view.My",
+                    "name": "My.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "eapp.view.SetPersonal",
+                    "name": "SetPersonal.js",
+                    "path": "app/view/"
+                },
+                {
+                    "clsName": "eapp.view.zhihuizhichuang.IntegratematerialList",
+                    "name": "IntegratematerialList.js",
+                    "path": "app/view/zhihuizhichuang/"
+                },
+                {
+                    "clsName": "eapp.view.zhihuizhichuang.IntegratematerialDetail",
+                    "name": "IntegratematerialDetail.js",
+                    "path": "app/view/zhihuizhichuang/"
+                },
+                {
+                    "clsName": "eapp.view.xinfujiayuan.IntegratematerialList",
+                    "name": "IntegratematerialList.js",
+                    "path": "app/view/xinfujiayuan/"
+                },
+                {
+                    "clsName": "eapp.view.xinfujiayuan.IntegratematerialDetail",
+                    "name": "IntegratematerialDetail.js",
+                    "path": "app/view/xinfujiayuan/"
+                },
+                {
+                    "clsName": "eapp.view.zhihuiyanlu.Idea",
+                    "name": "Idea.js",
+                    "path": "app/view/zhihuiyanlu/"
+                },
+                {
+                    "clsName": "eapp.view.zhihuiyanlu.IdeaList",
+                    "name": "IdeaList.js",
+                    "path": "app/view/zhihuiyanlu/"
+                },
+                {
+                    "clsName": "eapp.view.zhihuiyanlu.IdeaPage",
+                    "name": "IdeaPage.js",
+                    "path": "app/view/zhihuiyanlu/"
+                },
+                {
+                    "clsName": "eapp.view.gongjianhexie.VolunteerPage",
+                    "name": "VolunteerPage.js",
+                    "path": "app/view/gongjianhexie/"
+                },
+                {
+                    "clsName": "eapp.view.gongjianhexie.AddIdea",
+                    "name": "AddIdea.js",
+                    "path": "app/view/gongjianhexie/"
+                },
+                {
+                    "clsName": "eapp.view.gongjianhexie.ApplyVolunteer",
+                    "name": "ApplyVolunteer.js",
+                    "path": "app/view/gongjianhexie/"
+                },
+                {
+                    "clsName": "eapp.view.gongjianhexie.ApplyVolunteerTow",
+                    "name": "ApplyVolunteerTow.js",
+                    "path": "app/view/gongjianhexie/"
+                },
+                {
+                    "clsName": "eapp.view.wenxinjiayuan.UnemPage",
+                    "name": "UnemPage.js",
+                    "path": "app/view/wenxinjiayuan/"
+                },
+                {
+                    "clsName": "eapp.view.wenxinjiayuan.AddUnem",
+                    "name": "AddUnem.js",
+                    "path": "app/view/wenxinjiayuan/"
+                },
+                {
+                    "clsName": "eapp.view.wenxinjiayuan.MyUnem",
+                    "name": "MyUnem.js",
+                    "path": "app/view/wenxinjiayuan/"
+                },
+                {
+                    "clsName": "eapp.view.wenxinjiayuan.UnemDetail",
+                    "name": "UnemDetail.js",
+                    "path": "app/view/wenxinjiayuan/"
+                },
+                {
+                    "clsName": "eapp.view.duocaijiayuan.GroupPage",
+                    "name": "GroupPage.js",
+                    "path": "app/view/duocaijiayuan/"
+                },
+                {
+                    "clsName": "eapp.view.duocaijiayuan.AddGroup",
+                    "name": "AddGroup.js",
+                    "path": "app/view/duocaijiayuan/"
+                },
+                {
+                    "clsName": "eapp.view.about.TongZhiGongGao",
+                    "name": "TongZhiGongGao.js",
+                    "path": "app/view/about/"
+                },
+                {
+                    "clsName": "eapp.view.about.BianMinXinXi",
+                    "name": "BianMinXinXi.js",
+                    "path": "app/view/about/"
+                },
+                {
+                    "clsName": "eapp.view.about.IndexPage",
+                    "name": "IndexPage.js",
+                    "path": "app/view/about/"
+                },
+                {
+                    "clsName": "eapp.view.about.NewsList",
+                    "name": "NewsList.js",
+                    "path": "app/view/about/"
+                },
+                {
+                    "clsName": "eapp.controller.Cell12",
+                    "name": "Cell12.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.Main",
+                    "name": "Main.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.Integratematerial",
+                    "name": "Integratematerial.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.Integratematerialtow",
+                    "name": "Integratematerialtow.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.Login",
+                    "name": "Login.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.My",
+                    "name": "My.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.Idea",
+                    "name": "Idea.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.Volunteer",
+                    "name": "Volunteer.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.Unemploymentregistration",
+                    "name": "Unemploymentregistration.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.controller.Group",
+                    "name": "Group.js",
+                    "path": "app/controller/"
+                },
+                {
+                    "clsName": "eapp.store.Integratematerial",
+                    "name": "Integratematerial.js",
+                    "path": "app/store/"
+                },
+                {
+                    "clsName": "eapp.store.Residentuser",
+                    "name": "Residentuser.js",
+                    "path": "app/store/"
+                },
+                {
+                    "clsName": "eapp.store.Idea",
+                    "name": "Idea.js",
+                    "path": "app/store/"
+                },
+                {
+                    "clsName": "eapp.store.Unemploymentregistration",
+                    "name": "Unemploymentregistration.js",
+                    "path": "app/store/"
+                },
+                {
+                    "clsName": "eapp.store.Unemploymentreply",
+                    "name": "Unemploymentreply.js",
+                    "path": "app/store/"
+                }
+            ]
+        },
+        {
+            "name": "Application - Production",
+            "target": "app-all.js",
+            "compress": true,
+            "files": [
+                {
+                    "path": "",
+                    "name": "all-classes.js"
+                },
+                {
+                    "path": "",
+                    "name": "app.js"
+                }
+            ]
+        }
+    ],
+    "resources": []
+}

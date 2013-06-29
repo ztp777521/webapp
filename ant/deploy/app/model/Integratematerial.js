@@ -1,0 +1,1 @@
+Ext.define("eapp.model.Integratematerial",{extend:"Ext.data.Model",config:{fields:["materialid","materialContent","materialPicture","moduleTypeid","materialTitle","materialState","materialVideo","materialCommitDate","materialPublicDate","showTypeid","materialSource","commitPersonid"]}});

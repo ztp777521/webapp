@@ -1,0 +1,21 @@
+Ext.define('eapp.model.Shop',
+{
+	extend:'Ext.data.Model',
+	
+	config:
+	{
+		fields:
+		[
+			'shopid',
+			'userid',
+			'serviceTypeid',
+			'shopName',
+			'serviceContent',
+			'shopState',
+			'shopAddress',
+			'telephonenum',
+			'coordinateX',
+			'coordinateY'
+		]
+	}
+});

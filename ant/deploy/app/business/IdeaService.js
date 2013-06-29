@@ -1,0 +1,1 @@
+Ext.define("eapp.business.IdeaService",{extend:"eapp.business.BaseService",addremark:function(a,d,c,b,e,f){this.callApi("idea!addremark.action",{userId:a,userName:d,telephonenum:c,email:b,ideaContent:e},f)},findidea:function(a,c,e,b,d){this.callApi("idea!findidealist.action",{userId:a,ispublic:c,pageNo:e,pageSize:b},d)}});
